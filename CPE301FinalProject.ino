@@ -1,4 +1,8 @@
 #include <RTClib.h>
+
+#define RDA 0x80
+#define TBE 0x20
+
 RTC_DS3231 rtc;
 
 //UART
