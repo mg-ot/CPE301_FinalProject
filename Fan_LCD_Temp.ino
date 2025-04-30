@@ -15,12 +15,12 @@ void setup() {
 
     
     DDRE |= (1 << PE3); //D5 fan enableas output
-    DDRG |= (1 << PG5); //D4 motor input 1 as output
-    DDRE |= (1 << PE5); //D3 motor input 2 as output
+    DDRG |= (1 << PG5); //D4 motor input 1 
+    DDRE |= (1 << PE5); //D3 motor input 2 
 
    //motor direction as forward
-    PORTG |= (1 << PG5);  //D4 HIGH:motor input 1)
-    PORTE &= ~(1 << PE5); //D3 LOW:motor input 2)
+    PORTG |= (1 << PG5);  //D4 HIGH
+    PORTE &= ~(1 << PE5); //D3 LOW
 
     analogWrite(5, 0); // Fan off initially
 }
