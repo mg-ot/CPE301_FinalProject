@@ -1,3 +1,7 @@
+//Authors: Manuel Gonzalez, Tirth Patel, Vanessa Medina, Luis Matheus
+
+
+
 #include <LiquidCrystal.h>
 #include <DHT.h>
 #include <Stepper.h>
