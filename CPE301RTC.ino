@@ -1,3 +1,5 @@
+//Authors: Manuel Gonzalez, Tirth Patel, Vanessa Medina, Luis Matheus
+
 #include <RTClib.h>
 
 #define RDA 0x80
