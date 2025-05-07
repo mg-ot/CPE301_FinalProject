@@ -137,7 +137,7 @@ void setup() {
   ventStepper.setSpeed(10);
 
   //***NOTE*** only uncomment this to change time. must be set again if using new RTC module
-  //rtc.adjust(DateTime(2025, 5, 6, 21, 18, 0));  // Set to May 6, 2025, 3:30 PM 
+  //rtc.adjust(DateTime(2025, 5, 6, 21, 18, 0));  //This currently sets time to May 6th, 2025 9:18
 
   //Fan
   DDRE |= (1 << PE3);
