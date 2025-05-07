@@ -1,3 +1,5 @@
+//Authors: Manuel Gonzalez, Tirth Patel, Vanessa Medina, Luis Matheus
+
 #define RDA 0x80
 #define TBE 0x20 
 
