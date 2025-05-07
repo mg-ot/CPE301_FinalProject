@@ -1,3 +1,5 @@
+//Authors: Manuel Gonzalez, Tirth Patel, Vanessa Medina, Luis Matheus
+
 #include <Stepper.h>
 
 int potPin = A0;
